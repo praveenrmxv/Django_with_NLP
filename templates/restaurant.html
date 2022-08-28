@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}
+{%  block body_block %}
+     <title>Restaurant Reviews</title>
+    <style>
+
+
+h1{
+    color: green;
+    text-align: center;
+}
+h2{
+    color: blue;
+}
+p{
+    font-family: Arial;
+}
+</style>
+<div class="container">
+    <div class="jumbotron">
+<h1><em>This is Result page!!!</em></h1><br><br>
+<h2>Accuracy :{{ i }}</h2><br>
+<h2>Confusion Matrix :{{ j }}</h2>
+    </div>
+    </div>
+{% endblock %}
